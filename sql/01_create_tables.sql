@@ -129,4 +129,5 @@ CREATE INDEX idx_resp_entity_fk ON responsabilita_entity(id_responsabile, id_ent
 
 -- Indice per l'export del profilo responsabile
 CREATE INDEX idx_resp_entity_ruolo_acn
+
 ON responsabilita_entity (ruolo_responsabile);
